@@ -1,0 +1,47 @@
+.is-a-reply{
+	border-left: 2px solid red;
+	/*height: 100%;*/
+	
+
+}
+
+.user-post-avatar{
+	display: inline; 
+	width: 50px; 
+	height: 50px; 
+	float: left; 
+	margin: 3px
+}
+
+.post-body{
+	white-space: pre-line;
+}
+
+/* Tooltip */
+.has-tooltip + .tooltip > .tooltip-inner {
+    background-color: #73AD21; 
+    color: #FFFFFF; 
+    border: 1px solid green;
+    padding: 15px;
+    font-size: 20px;
+}
+
+/* Tooltip on top */
+.has-tooltip + .tooltip.top > .tooltip-arrow {
+    border-top: 5px solid green;
+}
+
+/* Tooltip on bottom */
+.has-tooltip + .tooltip.bottom > .tooltip-arrow {
+    border-bottom: 5px solid blue;
+}
+
+/* Tooltip on left */
+.has-tooltip + .tooltip.left > .tooltip-arrow {
+    border-left: 5px solid red;
+}
+
+/* Tooltip on right */
+.has-tooltip + .tooltip.right > .tooltip-arrow {
+    border-right: 5px solid black;
+}
